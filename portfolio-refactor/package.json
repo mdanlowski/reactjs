@@ -1,0 +1,25 @@
+{
+  "name": "PortfolioMDanlowski",
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "css-loader": "^2.1.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
