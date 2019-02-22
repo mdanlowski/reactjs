@@ -1,0 +1,19 @@
+body { 
+    margin: 10%;
+    background-color: #666;
+    color: ivory;
+}
+
+.joke-item {
+    border-bottom: 2px solid;
+}
+
+.joke-question {
+    margin-bottom: -10px;
+    padding: 2px;
+    background-color: rgba(0,200,100, 0.3);
+}
+.joke-line {
+    padding: 2px;
+    background-color: rgba(200,100,0, 0.3);
+}
