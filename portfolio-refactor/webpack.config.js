@@ -1,6 +1,7 @@
 var path = require("path")
 
 module.exports = {
+  // mode: 'development',
   "output": {
     "filename": "[name].pack.js",
   },
@@ -30,6 +31,6 @@ module.exports = {
     ]
   },
   "entry": {
-    "index": "./index"
+    "index": "./index",
   }
 };

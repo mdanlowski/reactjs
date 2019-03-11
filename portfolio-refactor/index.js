@@ -2,7 +2,6 @@ import "./assets/style.less";
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./App";
+import ProjectGallery from "./components/ProjectGallery";
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<ProjectGallery />, document.getElementById('root'));

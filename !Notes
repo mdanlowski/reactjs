@@ -1,0 +1,16 @@
+return (
+      <div className="projects-grid">
+        {this.state.projects.map(proj => 
+        <ProjectTile key={proj.id}
+          name={proj.name}
+          date={proj.date}
+          tech={proj.tech}
+          descr={proj.descr}
+          demoUrl={proj.demoUrl}
+          repoUrl={proj.repoUrl}
+          techThumb={proj.techThumb}
+          projThumb={proj.projThumb}
+          special={proj.special}
+        />
+        )}
+      </div>
